@@ -1,0 +1,146 @@
+.heading{
+    display: flex;
+    justify-content: center;
+}
+h1, h3 {
+    font-family: 'Italianno', cursive;
+    font-size: 100px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.item {
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Italianno', cursive;
+    flex: 1;
+    margin: 5px;
+    position: relative;
+}
+.container {
+    display: flex;
+}
+body {
+    background-color:#f6f6f6;
+}
+h4 {
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    width: 100px;
+    background-color: #fff;
+    color: #000000;
+    font-size: 0;
+}
+.par {
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    background-color: #fff;
+    color: #000000;
+    font-size: 0;
+}
+.price {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    background-color: #fff;
+    color: #000000;
+    font-size: 0;
+}
+.selected {
+    flex: 4;
+}
+.selected h4 {
+    font-size: 40px;
+    transition: all 1s ease-in;
+}
+.selected .par {
+    font-size: 30px;
+    transition: all 1s ease-in;
+}
+.selected .price {
+    font-size: 45px;
+    transition: all 1s ease-in;
+}
+label {
+    font-family: 'Italianno', cursive;
+    font-size: 30px;
+}
+.text-input {
+    background-color: #f6f6f6;
+    border: none;
+    padding: 15px 20px;
+}
+.btn {
+    background-color: #c4a6d1;
+    font-family: 'Italianno', cursive;
+    font-size: 40px;
+    flex: 1;
+    }
+.one {
+    background-image: url('1.jpg');
+}
+.two {
+    background-image: url('2.jpg');
+}
+.three {
+    background-image: url('3.jpg');
+}
+.four {
+    background-image: url('4.jpg');
+}
+.five {
+    background-image: url('5.jpg');
+}
+.six {
+    background-image: url('6.jpg');
+}
+.head {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: red;
+    margin-top: -50px;
+}
+.base {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+    margin-top: -50px;
+}
+.box   {
+    background-color: rgba(251, 248, 249, 0.82); 
+    height: 130px;
+    width: 110px;
+    margin: 40px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.days,.hours,.minutes,.seconds {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;  
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.h5 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+@media all and (max-width: 800px){
+.head {
+    font-size: 40px;
+}
+}
+@media all and (max-width: 500px){
+    .head, h3 {
+        font-size: 30px;
+    }
+}
